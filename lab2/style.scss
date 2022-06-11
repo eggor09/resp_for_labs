@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+}
+.main{
+    &-head{
+        width: 100%;
+
+        display: flex;
+        padding-left: 8%;
+        &-text{
+            font-size: 28px;
+            padding-right: 24%;
+            color: rgb(99, 99, 99);
+        }
+        &-text_2{
+            font-size: 20px;
+            padding-top: 4px;
+            color: rgb(99, 99, 99);
+            padding-left: 12px;
+        }
+        &-close{
+            padding-left: 30%;
+            padding-top: 0.27%;
+        }
+        &-img_cl{
+            font-size: 25px;
+    
+        }
+
+    }
+    
+    &-login{
+        margin-left: 30%;
+        margin-top: 8%;
+
+        &-container{
+            margin: 20px 0px 20px 52px;
+            font-size: 20px;
+        }
+    }
+
+}
